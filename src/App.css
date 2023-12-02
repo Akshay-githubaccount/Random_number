@@ -1,0 +1,72 @@
+
+
+
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.container > div:first-child {
+  margin-bottom: 20px;
+}
+
+
+.randomNumber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.randomNumber div {
+  flex: 1;
+}
+
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+button:hover {
+  background-color: #2980b9;
+}
+
+
+p span {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #27ae60; 
+}
+.space {
+  margin-left: 50px;
+}
